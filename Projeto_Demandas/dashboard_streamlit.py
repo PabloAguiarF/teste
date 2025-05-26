@@ -18,8 +18,8 @@ def format_currency(value):
 
 
 st.set_page_config(layout="wide")
-PATH_ANDAMENTO = r'F:\GOM-A\Eletromecânica\1 - MECÂNICA\ArcGIS\VIEWS_DEMANDA\ABERTAS.xls'
-PATH_FINALIZADA = r'F:\GOM-A\Eletromecânica\1 - MECÂNICA\ArcGIS\VIEWS_DEMANDA\FECHADAS.xls'
+PATH_ANDAMENTO = r'Projeto_Demandas/Arquivos_Externos/ABERTAS.xls'
+PATH_FINALIZADA = r'Projeto_Demandas/Arquivos_Externos/FECHADAS.xls'
 
 def search_demand(df_and, df_fin):
     st.sidebar.header("🔍 Pesquisar Demanda")
