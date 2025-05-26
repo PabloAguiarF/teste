@@ -3,10 +3,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 import locale
-import re
-from collections import Counter
-from wordcloud import WordCloud
-import plotly.express as px
 
 # Configura o locale para Português Brasil
 try:
