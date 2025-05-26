@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import locale
 
- Configura o locale para Português Brasil
+ #Configura o locale para Português Brasil
 try:
     locale.setlocale(locale.LC_ALL, 'pt_BR.UTF-8')
 except:
