@@ -1,1 +1,7 @@
 matplotlib
+pandas
+numpy
+locale
+Counter
+WordCloud
+plotly.express
