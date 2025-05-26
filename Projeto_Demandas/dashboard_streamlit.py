@@ -2,13 +2,13 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
-import locale
+#import locale
 
 # Configura o locale para Português Brasil
-try:
-    locale.setlocale(locale.LC_ALL, 'pt_BR.UTF-8')
-except:
-    locale.setlocale(locale.LC_ALL, 'Portuguese_Brazil.1252')
+#try:
+#    locale.setlocale(locale.LC_ALL, 'pt_BR.UTF-8')
+#except:
+#    locale.setlocale(locale.LC_ALL, 'Portuguese_Brazil.1252')
 
 
 @st.cache_data
